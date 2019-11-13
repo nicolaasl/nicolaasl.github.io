@@ -480,6 +480,21 @@ const packages = {}
                     return packageInfo
                 }
 
+                packages["@framer/framer.device-skin-apple-iphone-xs-spacegrey"] = () => {
+                    var packageInfo = {}
+                    var designJson
+                    try {
+                        packageInfo = __webpack_require__(/*! framer-package-loader!@framer/framer.device-skin-apple-iphone-xs-spacegrey */ "framer-package-loader.js!./node_modules/@framer/framer.device-skin-apple-iphone-xs-spacegrey/build/index.js")
+                        designJson = __webpack_require__(/*! ./designDependencies.js */ "./designDependencies.js")["@framer/framer.device-skin-apple-iphone-xs-spacegrey"]
+                    } catch (e) {
+                        console.log(e)
+                    }
+                    packageInfo.__framer__ = packageInfo.__framer__ || {}
+                    packageInfo.__framer__.packageJson = {"name":"@framer/framer.device-skin-apple-iphone-xs-spacegrey","version":"1.0.0","main":"build/index.js","license":"MIT","devDependencies":{"typescript":"^3.0.1"},"framer":{"components":[{"name":"DeviceSkin","type":"deviceSkin"}]}}
+                    packageInfo.__framer__.packageJson.design = designJson
+                    return packageInfo
+                }
+
                 packages["@framer/framer.device-skin-apple-iphone8-space-gray"] = () => {
                     var packageInfo = {}
                     var designJson
@@ -509,7 +524,7 @@ exports.__framer__ = packageInfo
 /*! exports provided: main, license, devDependencies, peerDependencies, framer, author, dependencies, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"devDependencies\":{\"@framer/framer.device-skin-apple-iphone-xr-spacegrey\":\"^1.0.0\",\"@framer/framer.device-skin-apple-iphone8-space-gray\":\"^1.0.0\",\"@types/react\":\"^16.8\"},\"peerDependencies\":{\"framer\":\"^1.0\",\"react\":\"^16.8\"},\"framer\":{\"id\":\"dd30cf41-87a3-42e9-a036-fdc92b672a83\"},\"author\":\"Nic Grobler\",\"dependencies\":{\"@framer/benjamin.icon-generator\":\"^1.20.0\",\"@framer/benjamin.input\":\"^1.4.0\",\"@framer/framer.examples\":\"^1.7.0\",\"@framer/steveruizok.fontloader\":\"^1.7.0\"}}");
+module.exports = JSON.parse("{\"main\":\"dist/index.js\",\"license\":\"MIT\",\"devDependencies\":{\"@framer/framer.device-skin-apple-iphone-xr-spacegrey\":\"^1.0.0\",\"@framer/framer.device-skin-apple-iphone-xs-spacegrey\":\"^1.0.0\",\"@framer/framer.device-skin-apple-iphone8-space-gray\":\"^1.0.0\",\"@types/react\":\"^16.8\"},\"peerDependencies\":{\"framer\":\"^1.0\",\"react\":\"^16.8\"},\"framer\":{\"id\":\"dd30cf41-87a3-42e9-a036-fdc92b672a83\"},\"author\":\"Nic Grobler\",\"dependencies\":{\"@framer/benjamin.icon-generator\":\"^1.20.0\",\"@framer/benjamin.input\":\"^1.4.0\",\"@framer/framer.examples\":\"^1.7.0\",\"@framer/steveruizok.fontloader\":\"^1.7.0\"}}");
 
 /***/ }),
 
@@ -57140,6 +57155,31 @@ exports.DeviceSkin = DeviceSkin;
 
 /***/ }),
 
+/***/ "framer-package-loader.js!./node_modules/@framer/framer.device-skin-apple-iphone-xs-spacegrey/build/index.js":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Applications/Framer X.app/Contents/Resources/Server/node_modules/@framerjs/build-library/build/Compiler/loaders/framer-package-loader.js!./node_modules/@framer/framer.device-skin-apple-iphone-xs-spacegrey/build/index.js ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class DeviceSkin {
+    constructor() {
+        this.image = "device.png";
+        this.imageWidth = 1385;
+        this.imageHeight = 2696;
+        this.padding = 40;
+        this.background = "black";
+    }
+}
+exports.DeviceSkin = DeviceSkin;
+//# sourceMappingURL=index.js.map
+
+
+/***/ }),
+
 /***/ "framer-package-loader.js!./node_modules/@framer/framer.device-skin-apple-iphone8-space-gray/build/index.js":
 /*!***********************************************************************************************************************************************************************************************************************************!*\
   !*** /Applications/Framer X.app/Contents/Resources/Server/node_modules/@framerjs/build-library/build/Compiler/loaders/framer-package-loader.js!./node_modules/@framer/framer.device-skin-apple-iphone8-space-gray/build/index.js ***!
@@ -61841,11 +61881,11 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_react__;
     "selectionLock": false,
     "settings": {
       "deviceType": null,
-      "skin": "",
+      "skin": "Space Gray",
       "zoom": -1,
       "rotate": false,
-      "bezel": false,
-      "responsive": true,
+      "bezel": true,
+      "responsive": false,
       "touch": false,
       "__class": "PreviewSettings"
     }
