@@ -1,0 +1,390 @@
+
+@font-face {
+                          font-family: "AdelleSans-Regular";
+                          src: url('../fonts/.17016.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SofiaPro-Medium";
+                          src: url('../fonts/Sofia Pro Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "AdelleSans-Bold";
+                          src: url('../fonts/.17007.otf') format("opentype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.a3 {
+  width               : 100%;
+  min-width           : 1045px;
+  height              : 100vh;
+  min-height          : 1948px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a3 .light {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1293px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16px;
+  top                 : 422px;
+  height              : 73px;
+  width               : 59px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 24px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a3 .group .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 56px;
+  width               : 165px;
+  position            : fixed;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group3 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group3 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group3 .room {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 12px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group3 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 419px;
+  height              : 73px;
+  width               : 59px;
+  position            : fixed;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(180deg);
+  opacity             : 1.0;
+}
+.a3 .group1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 24px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a3 .group1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .ofentseletebeleis {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 531px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a3 .ofentseletebeleis-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 844px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.a3 .ofentseletebeleis-layout-container > * {
+  pointer-events      : auto;
+}
+.a3 .ofentseletebeleis .span1 {
+  line-height         : 31.0px;
+}
+.a3 .ofentseletebeleis .span2 {
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.58);
+  line-height         : 31.0px;
+}
+.a3 .ofentseletebeleis .span3 {
+  font-size           : 48.0px;
+  color               : rgba(0, 0, 0, 0.58);
+  line-height         : 31.0px;
+}
+.a3 .ofentseletebeleis .span4 {
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.58);
+  line-height         : 31.0px;
+}
+.a3 .framedprint {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 657px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.a3 .framedprint-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 179px;
+  align-items         : center;
+  height              : 533px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.a3 .framedprint-layout-container > * {
+  pointer-events      : auto;
+}
+.a3 .framedprint {
+  pointer-events      : auto;
+}
+.a3 .framedprint:hover {
+  transform           : scale(0.97);
+}
+.a3 .framedprint .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 521px;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a3 .framedprint .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 531px;
+  width               : 656px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
