@@ -1,0 +1,433 @@
+
+@font-face {
+                          font-family: "AdelleSans-Bold";
+                          src: url('../fonts/.17007.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "AdelleSans-Regular";
+                          src: url('../fonts/.17016.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SofiaPro-Medium";
+                          src: url('../fonts/Sofia Pro Medium.otf') format("opentype");
+                        }
+                        
+.index {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1172px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.index .light {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1172px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.79;
+}
+.index .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 704px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 40px;
+  align-items         : center;
+  height              : 933px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.index .group2-layout-container > * {
+  pointer-events      : auto;
+}
+.index .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 772px;
+  height              : 72px;
+  width               : 310px;
+  position            : fixed;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .group .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 23px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.index .group2 .group .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .group .entermuseumviewing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 226px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : right;
+  line-height         : 42.0px;
+}
+.index .group2 .group .roomslink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .group .roomslink .roomslink1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .group .roomslink .roomslink1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .group .roomslink .roomslink1 .roomslink2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .hemelliggaamorthe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 609px;
+  height              : auto;
+  width               : 570px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.index .group2 .a2020hemelliggaamco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : auto;
+  width               : 484px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.46);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.index .group2 .joinliveexhibition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 889px;
+  height              : auto;
+  width               : 484px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.index .group2 .framedprint {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 569px;
+  width               : 704px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.index .group2 .framedprint {
+  pointer-events      : auto;
+}
+.index .group2 .framedprint:hover {
+  transform           : scale(0.97);
+}
+.index .group2 .framedprint .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 554px;
+  width               : 688px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .group2 .framedprint .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 569px;
+  width               : 703px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 56px;
+  width               : 149px;
+  position            : fixed;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav .mainnav1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 149px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav .mainnav1 .homelink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav .mainnav1 .homelink .homelink1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav .mainnav1 .homelink .homelink1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.index .mainnav .mainnav1 .homelink .homelink1 .homelink2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

@@ -1,0 +1,592 @@
+
+@font-face {
+                          font-family: "AdelleSans-Bold";
+                          src: url('../fonts/.17007.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "AdelleSans-Regular";
+                          src: url('../fonts/.17016.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SofiaPro-Medium";
+                          src: url('../fonts/Sofia Pro Medium.otf') format("opentype");
+                        }
+                        
+.rooms {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2747px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.rooms .light {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1653px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.rooms .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 595px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1472px;
+  align-items         : center;
+  height              : 1089px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.rooms .group2-layout-container > * {
+  pointer-events      : auto;
+}
+.rooms .group2 .hemelliggaamorthe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.rooms .group2 .u201chemelliggaamafrik {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : 571px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.rooms .group2 .u201chemelliggaamafrik .span1 {
+  
+}
+.rooms .group2 .u201chemelliggaamafrik .span2 {
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+}
+.rooms .group2 .u201chemelliggaamafrik .span3 {
+  
+}
+.rooms .group2 .u201chemelliggaamafrik .span4 {
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+}
+.rooms .group2 .u201chemelliggaamafrik .span5 {
+  
+}
+.rooms .group2 .u201chemelliggaamafrik .span6 {
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+}
+.rooms .group2 .u201chemelliggaamafrik .span7 {
+  
+}
+.rooms .group2 .u201chemelliggaamafrik .span8 {
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+}
+.rooms .group2 .u201chemelliggaamafrik .span9 {
+  
+}
+.rooms .group2 .u201chemelliggaamafrik .span10 {
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+}
+.rooms .group2 .u201chemelliggaamafrik .span11 {
+  
+}
+.rooms .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1151px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 162px;
+  align-items         : center;
+  height              : 1173px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.rooms .group4-layout-container > * {
+  pointer-events      : auto;
+}
+.rooms .group4 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 391px;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 390px;
+  height              : 391px;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .thesun {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 562px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.rooms .group4 .rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 782px;
+  height              : 391px;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 780px;
+  height              : 391px;
+  width               : 576px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .groupcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 780px;
+  height              : 391px;
+  width               : 576px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 390px;
+  height              : 391px;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .meteorite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 562px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 673px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.rooms .group4 .entrancecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.rooms .group4 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 391px;
+  width               : 576px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .group3 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 391px;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .group4 .group3 .sevenskies {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 171px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.rooms .mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 56px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 149px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .homelink1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .homelink1 .homelink2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .homelink1 .homelink2 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .homelink1 .homelink2 .homelink3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .roomslink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .roomslink .roomslink1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .roomslink .roomslink1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .mainnav .mainnav1 .roomslink .roomslink1 .roomslink2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .homelink {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 46px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .homelink-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2597px;
+  align-items         : center;
+  height              : 56px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.rooms .homelink-layout-container > * {
+  pointer-events      : auto;
+}
+.rooms .homelink .homelink1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .homelink .homelink1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.rooms .homelink .homelink1 .homelink2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

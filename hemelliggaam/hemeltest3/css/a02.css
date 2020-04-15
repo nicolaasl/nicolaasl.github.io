@@ -1,0 +1,520 @@
+
+@font-face {
+                          font-family: "AdelleSans-Bold";
+                          src: url('../fonts/.17007.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "AdelleSans-Regular";
+                          src: url('../fonts/.17016.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SofiaPro-Medium";
+                          src: url('../fonts/Sofia Pro Medium.otf') format("opentype");
+                        }
+                        
+.a02 {
+  width               : 100%;
+  min-width           : 1045px;
+  height              : 100vh;
+  min-height          : 657px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a02 .light {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -52px;
+  height              : calc(100.00% + 151px);
+  width               : calc(99.90% + 56px);
+  position            : fixed;
+  margin              : 0;
+  left                : -28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .framedprint {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 611px;
+  width               : 756px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.a02 .framedprint-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.a02 .framedprint-layout-container > * {
+  pointer-events      : auto;
+}
+.a02 .framedprint {
+  pointer-events      : auto;
+}
+.a02 .framedprint:hover {
+  transform           : scale(0.97);
+}
+.a02 .framedprint .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 592px;
+  width               : 736px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .framedprint .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 611px;
+  width               : 755px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .next {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 51px;
+  position            : relative;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .next-layout-container {
+  pointer-events      : none;
+  right               : 46px;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 50px;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+}
+.a02 .next-layout-container > * {
+  pointer-events      : auto;
+}
+.a02 .next .next1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 50px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.a02 .next .next1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 23px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .next .next1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .back {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 51px;
+  width               : 100%;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .back-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 50px;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 36px;
+}
+.a02 .back-layout-container > * {
+  pointer-events      : auto;
+}
+.a02 .back .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .back .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 50px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(180deg);
+  opacity             : 0.3;
+}
+.a02 .back .back1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 23px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .back .back1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 56px;
+  width               : 149px;
+  position            : fixed;
+  margin              : 0;
+  left                : -13px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 30px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert .mainnavvert1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 120px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert .mainnavvert1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert .mainnavvert1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .mainnavvert .mainnavvert1 .room {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 8px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  transform           : rotate(-90deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .roomlink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .roomslink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .mainnav .homelink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .texticon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 35px;
+  height              : 65px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .texticon .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 32px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.a02 .texticon .group2 .rectanglecopy2 {
+  background-color    : rgba(0, 0, 0, 0.9);
+  top                 : 0px;
+  height              : 6px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .texticon .group2 .rectanglecopy3 {
+  background-color    : rgba(0, 0, 0, 0.9);
+  top                 : 12px;
+  height              : 6px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .texticon .group2 .rectanglecopy4 {
+  background-color    : rgba(0, 0, 0, 0.9);
+  top                 : 25px;
+  height              : 6px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a02 .texticon .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

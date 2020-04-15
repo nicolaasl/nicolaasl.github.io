@@ -1,0 +1,574 @@
+
+@font-face {
+                          font-family: "AdelleSans-Bold";
+                          src: url('../fonts/.17007.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "AdelleSans-Regular";
+                          src: url('../fonts/.17016.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "SofiaPro-Medium";
+                          src: url('../fonts/Sofia Pro Medium.otf') format("opentype");
+                        }
+                        
+.wallchaptertwo {
+  width               : 100%;
+  min-width           : 3030px;
+  height              : 100vh;
+  min-height          : 911px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.wallchaptertwo .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 792px;
+  height              : 119px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .light {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 806px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .lightcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 806px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 28px;
+  width               : 152px;
+  position            : fixed;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .group3 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .group3 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprint {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 259px;
+  position            : absolute;
+  margin              : 0;
+  left                : 437px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprint {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprint:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprint .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprint .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 259px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprintcopy2 {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprintcopy2:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprintcopy2 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy2 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1369px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprintcopy3 {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprintcopy3:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprintcopy3 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy3 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1651px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprintcopy4 {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprintcopy4:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprintcopy4 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy4 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1933px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprintcopy5 {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprintcopy5:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprintcopy5 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy5 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 259px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .framedprintcopy {
+  pointer-events      : auto;
+}
+.wallchaptertwo .framedprintcopy:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .framedprintcopy .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .framedprintcopy .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 227px;
+  width               : 259px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1001px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.3s ease-in-out;
+}
+.wallchaptertwo .a3 {
+  pointer-events      : auto;
+}
+.wallchaptertwo .a3:hover {
+  transform           : scale(0.97);
+}
+.wallchaptertwo .a3 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .a3 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .viewingroomu2022seven {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : 299px;
+  position            : fixed;
+  margin              : 0;
+  left                : 150px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.wallchaptertwo .next {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16px;
+  top                 : 28px;
+  height              : 73px;
+  width               : 186px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .next .meteorite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 134px;
+  position            : fixed;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdelleSans-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 0.9);
+  text-align          : right;
+  line-height         : 28.0px;
+}
+.wallchaptertwo .next .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 59px;
+  position            : fixed;
+  margin              : 0;
+  left                : 127px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.wallchaptertwo .next .group .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 24px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.wallchaptertwo .next .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
